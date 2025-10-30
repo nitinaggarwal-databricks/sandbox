@@ -605,14 +605,27 @@
 
         .tag-buttons {
             display: flex;
+<<<<<<< HEAD
+            flex-wrap: wrap;
+            gap: 10px;
+=======
             flex-direction: column;
             gap: 12px;
+>>>>>>> origin/agent-genie++
         }
 
         .suggested-tags button {
             background: #e3eafc;
             border: none;
             border-radius: 20px;
+<<<<<<< HEAD
+            padding: 10px 16px;
+            font-size: 14px;
+            color: #1a73e8;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s;
+=======
             padding: 12px 20px;
             font-size: 14px;
             color: #1a73e8;
@@ -625,12 +638,27 @@
             display: flex;
             align-items: center;
             justify-content: flex-start;
+>>>>>>> origin/agent-genie++
         }
 
         .suggested-tags button:hover {
             background: #d1defb;
         }
 
+<<<<<<< HEAD
+        /* Fixed Questions Styles */
+        .fixed-questions {
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+            animation: fadeIn 0.5s ease-in-out;
+            box-sizing: border-box;
+        }
+
+        .fixed-questions-header {
+            padding: 18px 20px;
+=======
         /* Horizontal Container for Collapsible Elements */
         .collapsible-container {
             display: grid;
@@ -682,11 +710,27 @@
 
         .fixed-questions-header {
             padding: 20px 24px;
+>>>>>>> origin/agent-genie++
             font-weight: 600;
             cursor: pointer;
             display: flex;
             justify-content: space-between;
             align-items: center;
+<<<<<<< HEAD
+            background: #f8fbff;
+            border-radius: 12px 12px 0 0;
+            border-bottom: 1px solid #e0e0e0;
+            transition: background-color 0.2s ease;
+        }
+
+        .fixed-questions-header:hover {
+            background: #ddeeff;
+        }
+
+        .collapse-icon {
+            transition: transform 0.3s ease;
+            color: #1a73e8;
+=======
             background: linear-gradient(135deg, #f8fbff 0%, #e3f2fd 100%);
             border-radius: 16px 16px 0 0;
             border-bottom: 1px solid #e0ecff;
@@ -707,6 +751,7 @@
             transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
             color: #1a73e8;
             filter: drop-shadow(0 2px 4px rgba(26, 115, 232, 0.2));
+>>>>>>> origin/agent-genie++
         }
 
         .collapse-icon.collapsed {
@@ -714,6 +759,17 @@
         }
 
         .fixed-questions-content {
+<<<<<<< HEAD
+            max-height: 300px;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+            padding: 18px 20px;
+        }
+
+        .fixed-questions-content.collapsed {
+            max-height: 0;
+            padding: 0 20px;
+=======
             flex: 1;
             overflow-y: auto;
             overflow-x: hidden;
@@ -748,10 +804,36 @@
 
         .fixed-questions-content::-webkit-scrollbar-thumb:hover {
             background: linear-gradient(135deg, #125fc3, #1a73e8);
+>>>>>>> origin/agent-genie++
         }
 
         .fixed-questions .tag-buttons {
             display: flex;
+<<<<<<< HEAD
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .fixed-questions button {
+            background: #ffffff;
+            border: 2px solid #b8daf8;
+            border-radius: 20px;
+            padding: 10px 16px;
+            font-size: 14px;
+            color: #1a73e8;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            box-shadow: 0 2px 4px rgba(26, 115, 232, 0.1);
+            margin: 4px 0;
+        }
+
+        .fixed-questions button:hover {
+            background: #e3eafc;
+            border-color: #1a73e8;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(26, 115, 232, 0.2);
+=======
             flex-direction: column;
             gap: 12px;
         }
@@ -799,6 +881,7 @@
             transform: translateY(-2px);
             box-shadow: 0 8px 24px rgba(26, 115, 232, 0.15);
             color: #0d47a1;
+>>>>>>> origin/agent-genie++
         }
 
         @keyframes fadeIn {
@@ -924,6 +1007,9 @@
         }
 
         /* Mobile tweaks */
+<<<<<<< HEAD
+        @media (max-width: 600px) {
+=======
         @media (max-width: 768px) {
             .collapsible-container {
                 grid-template-columns: 1fr;
@@ -934,6 +1020,7 @@
                 height: 350px;
             }
 
+>>>>>>> origin/agent-genie++
             .header-section {
                 flex-direction: column;
                 align-items: flex-start;
@@ -964,16 +1051,26 @@
             
             .tag-buttons {
                 flex-direction: column;
+<<<<<<< HEAD
+                gap: 8px;
+=======
                 gap: 10px;
+>>>>>>> origin/agent-genie++
             }
             
             .suggested-tags button {
                 width: 100%;
+<<<<<<< HEAD
+            }
+
+
+=======
                 min-height: 44px;
                 font-size: 13px;
                 padding: 10px 16px;
             }
 
+>>>>>>> origin/agent-genie++
             .feedback-buttons {
                 flex-direction: column;
             }
@@ -985,12 +1082,18 @@
 
             .fixed-questions .tag-buttons {
                 flex-direction: column;
+<<<<<<< HEAD
+                gap: 8px;
+=======
                 gap: 10px;
+>>>>>>> origin/agent-genie++
             }
             
             .fixed-questions button {
                 width: 100%;
                 text-align: left;
+<<<<<<< HEAD
+=======
                 min-height: 44px;
                 font-size: 13px;
                 padding: 10px 16px;
@@ -1021,6 +1124,7 @@
             .collapsible-container {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 16px;
+>>>>>>> origin/agent-genie++
             }
         }
 
@@ -1079,6 +1183,8 @@
             flex-wrap: wrap;
             gap: 8px;
             margin-bottom: 12px;
+<<<<<<< HEAD
+=======
             max-height: 200px;
             overflow-y: auto;
             padding: 8px;
@@ -1104,6 +1210,7 @@
 
         .schema-columns::-webkit-scrollbar-thumb:hover {
             background: linear-gradient(135deg, #125fc3, #1a73e8);
+>>>>>>> origin/agent-genie++
         }
 
         .schema-column {
@@ -1129,6 +1236,8 @@
             background: #f8f9fa;
             border-radius: 8px;
             border-left: 4px solid #28a745;
+<<<<<<< HEAD
+=======
             max-height: 120px;
             overflow-y: auto;
         }
@@ -1150,6 +1259,7 @@
 
         .required-columns-info::-webkit-scrollbar-thumb:hover {
             background: linear-gradient(135deg, #20c997, #17a2b8);
+>>>>>>> origin/agent-genie++
         }
 
         .required-columns-title {
@@ -1158,6 +1268,8 @@
             margin-bottom: 8px;
             font-size: 14px;
         }
+<<<<<<< HEAD
+=======
 
         /* Document Analyzer Styles */
         .upload-section {
@@ -1337,6 +1449,7 @@
         .custom-checkbox:checked + .checkbox-label:hover .checkmark {
             background: linear-gradient(135deg, #125fc3 0%, #1a73e8 100%);
         }
+>>>>>>> origin/agent-genie++
     </style>
 </head>
 <body>
@@ -1348,6 +1461,97 @@
         </div>
         
         <div class="section-description">
+<<<<<<< HEAD
+            A multi-agent AI engine that answers questions, forecasts trends, classifies data, summarizes records, translates languages, and recommends next-best actions. For any questions or feedback, please reach out to nitin.aggarwal@databricks.com 
+        </div>
+        
+        <!-- Schema Information Section -->
+        <div id="schemaSection" class="fixed-questions" style="display: none; width: 100%; max-width: 1200px; margin: 0 auto 20px auto;">
+            <div class="fixed-questions-header" onclick="toggleDatasetSchema()">
+                <span>📊 Dataset Schema</span>
+                <svg class="collapse-icon" id="datasetSchemaIcon" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </div>
+            <div class="fixed-questions-content" id="datasetSchemaContent">
+                <div class="schema-header">
+                    <span id="schemaStatus" class="schema-status">Loading...</span>
+                </div>
+                <div id="schemaColumns" class="schema-columns">
+                    <!-- Schema columns will be displayed here -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Fixed Questions Section -->
+        <div class="fixed-questions" id="fixedQuestions" style="width: 100%; max-width: 1200px; margin: 0 auto 20px auto;">
+            <div class="fixed-questions-header" onclick="toggleFixedQuestions()">
+                <span>Advanced Questions</span>
+                <svg class="collapse-icon" id="fixedQuestionsIcon" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </div>
+            <div class="fixed-questions-content" id="fixedQuestionsContent">
+                <div class="tag-category">
+                    <div class="tag-buttons">
+                        <button onclick="askFixedQuestion('Explain the dataset beautifully without any *')">
+                            Explain the dataset
+                        </button>
+                        <button onclick="askFixedQuestion('Summarize the record into Spanish')">
+                            Summarize the record into Spanish
+                        </button>
+                        <button onclick="askFixedQuestion('Classify each record into categories: High, Medium, and Low. Also, specify the reason')">
+                            Classify each record using categories: High, Medium, and Low. Also, specify the reason
+                        </button>
+                        <button onclick="askFixedQuestion('Summarize the record, and suggest one next best action for the analyst supporting the business')">
+                            Summarize the record, and suggest one next best action for the analyst supporting the business
+                        </button>
+                        <button onclick="askFixedQuestion('Who is Ali Ghodsi?')">
+                            Who is Ali Ghodsi?
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Suggested Questions Section -->
+        <div class="fixed-questions" id="suggestedQuestionsSection" style="width: 100%; max-width: 1200px; margin: 0 auto 20px auto;">
+            <div class="fixed-questions-header" onclick="toggleSuggestedQuestions()">
+                <span>Suggested Questions</span>
+                <svg class="collapse-icon" id="suggestedQuestionsIcon" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </div>
+            <div class="fixed-questions-content" id="suggestedQuestionsContent">
+                <div class="tag-category">
+                    <div class="tag-buttons" id="suggestedQuestions">
+                        <span style="color: #666; font-style: italic;">Loading questions based on your data schema...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- PDF Upload Section -->
+        <div class="fixed-questions" id="pdfUploadSection" style="width: 100%; max-width: 1200px; margin: 0 auto 20px auto;">
+            <div class="fixed-questions-header" onclick="togglePdfUpload()">
+                <span>📄 Document Analyzer</span>
+                <svg class="collapse-icon" id="pdfUploadIcon" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </div>
+            <div class="fixed-questions-content" id="pdfUploadContent">
+                <!-- Upload once -->
+                <div class="row" style="margin-bottom: 12px;">
+                    <input id="pdf" type="file" accept="application/pdf" style="width: 100%; margin-bottom: 10px;" />
+                    <button id="uploadBtn" style="padding: 10px 14px; border: 0; border-radius: 10px; cursor: pointer; background: #1a73e8; color: #fff;">Upload</button>
+                    <span id="uploadStatus" style="margin-left: 10px; font-weight: 500;"></span>
+                </div>
+                
+                <!-- Toggle: route all queries to PDF QA when checked -->
+                <div class="row" style="margin-bottom: 12px;">
+                    <input id="usePdf" type="checkbox" />
+                    <label for="usePdf" style="margin-left: 8px; font-weight: 500; color: #5f6368;">Set as default for this chat</label>
+=======
             A multi-agent AI engine that answers questions, forecasts trends, classifies data, summarizes records, translates languages, and recommends next-best actions.
         </div>
         
@@ -1441,6 +1645,7 @@
                             </button>
                         </div>
                     </div>
+>>>>>>> origin/agent-genie++
                 </div>
             </div>
         </div>
@@ -1477,7 +1682,10 @@
             }
         }
         
+<<<<<<< HEAD
+=======
         
+>>>>>>> origin/agent-genie++
         // Global function for dataset schema toggle
         function toggleDatasetSchema() {
             const content = document.getElementById('datasetSchemaContent');
@@ -1563,6 +1771,16 @@
                 .then(response => response.json())
                 .then(configData => {
                     if (!configData.genie_configured) {
+<<<<<<< HEAD
+                        schemaStatus.textContent = 'Genie not configured in environment';
+                        schemaStatus.className = 'schema-status error';
+                        return;
+                    }
+                    
+                    schemaSection.style.display = 'block';
+                    schemaStatus.textContent = 'Loading schema...';
+                    schemaStatus.className = 'schema-status loading';
+=======
                         console.log('Genie not configured in environment');
                         // Still try to load sample questions even if genie not configured
                         loadSampleQuestions();
@@ -1570,6 +1788,7 @@
                     }
                     
                     console.log('Loading schema...');
+>>>>>>> origin/agent-genie++
                     
                     // Use the genie room ID from environment
                     fetch('/fetch-schema', {
@@ -1584,25 +1803,85 @@
                         if (data.success) {
                             schemaColumns = data.columns || [];
                             displaySchemaColumns(schemaColumns);
+<<<<<<< HEAD
+                            schemaStatus.textContent = `${schemaColumns.length} columns detected`;
+                            schemaStatus.className = 'schema-status success';
+=======
                             // Note: schemaStatus and schemaSection elements don't exist in UI anymore
                             // but we still process the schema data for backend functionality
+>>>>>>> origin/agent-genie++
                             
                             // Load sample questions after schema is successfully fetched
                             loadSampleQuestions();
                         } else {
+<<<<<<< HEAD
+                            schemaStatus.textContent = 'Failed to load schema';
+                            schemaStatus.className = 'schema-status error';
+                            console.error('Error fetching schema:', data.error);
+=======
                             console.error('Error fetching schema:', data.error);
                             // Still try to load sample questions even if schema fails
                             loadSampleQuestions();
+>>>>>>> origin/agent-genie++
                         }
                     })
                     .catch(error => {
                         console.error('Error fetching schema:', error);
+<<<<<<< HEAD
+                        schemaStatus.textContent = 'Error loading schema';
+                        schemaStatus.className = 'schema-status error';
+=======
                         // Still try to load sample questions even if schema fetch fails
                         loadSampleQuestions();
+>>>>>>> origin/agent-genie++
                     });
                 })
                 .catch(error => {
                     console.error('Error checking genie config:', error);
+<<<<<<< HEAD
+                    schemaStatus.textContent = 'Error checking configuration';
+                    schemaStatus.className = 'schema-status error';
+                });
+            }
+            
+            // Display schema columns
+            function displaySchemaColumns(columns, requiredColumns = []) {
+                schemaColumnsContainer.innerHTML = '';
+                
+                columns.forEach(column => {
+                    const columnDiv = document.createElement('div');
+                    columnDiv.className = 'schema-column';
+                    columnDiv.textContent = column;
+                    
+                    // Highlight required columns
+                    if (requiredColumns.includes(column)) {
+                        columnDiv.classList.add('required');
+                    }
+                    
+                    schemaColumnsContainer.appendChild(columnDiv);
+                });
+                
+                // Show required columns info if any
+                if (requiredColumns.length > 0) {
+                    const existingInfo = schemaSection.querySelector('.required-columns-info');
+                    if (existingInfo) {
+                        existingInfo.remove();
+                    }
+                    
+                    const requiredInfo = document.createElement('div');
+                    requiredInfo.className = 'required-columns-info';
+                    requiredInfo.innerHTML = `
+                        <div class="required-columns-title">Required columns for current query:</div>
+                        <div>${requiredColumns.join(', ')}</div>
+                    `;
+                    schemaSection.appendChild(requiredInfo);
+                } else {
+                    // Remove required columns info if no required columns
+                    const existingInfo = schemaSection.querySelector('.required-columns-info');
+                    if (existingInfo) {
+                        existingInfo.remove();
+                    }
+=======
                     // Still try to load sample questions even if genie config check fails
                     loadSampleQuestions();
                 });
@@ -1615,6 +1894,7 @@
                 console.log('Schema columns processed:', columns.length, 'columns');
                 if (requiredColumns.length > 0) {
                     console.log('Required columns for current query:', requiredColumns);
+>>>>>>> origin/agent-genie++
                 }
             }
             
@@ -2505,21 +2785,65 @@
                 document.body.removeChild(link);
             }
             
+<<<<<<< HEAD
+            // Initialize collapsible sections as collapsed on load
+            setTimeout(() => {
+                // Initialize fixed questions as collapsed
+                const fixedContent = document.getElementById('fixedQuestionsContent');
+                const fixedIcon = document.getElementById('fixedQuestionsIcon');
+                if (fixedContent && fixedIcon) {
+                    fixedContent.classList.add('collapsed');
+                    fixedIcon.classList.add('collapsed');
+                }
+                
+                // Initialize dataset schema as collapsed
+                const schemaContent = document.getElementById('datasetSchemaContent');
+                const schemaIcon = document.getElementById('datasetSchemaIcon');
+                if (schemaContent && schemaIcon) {
+                    schemaContent.classList.add('collapsed');
+                    schemaIcon.classList.add('collapsed');
+                }
+                
+                // Initialize suggested questions as collapsed
+                const suggestedContent = document.getElementById('suggestedQuestionsContent');
+                const suggestedIcon = document.getElementById('suggestedQuestionsIcon');
+                if (suggestedContent && suggestedIcon) {
+                    suggestedContent.classList.add('collapsed');
+                    suggestedIcon.classList.add('collapsed');
+                }
+                
+                // Initialize PDF upload as collapsed
+                const pdfUploadContent = document.getElementById('pdfUploadContent');
+                const pdfUploadIcon = document.getElementById('pdfUploadIcon');
+                if (pdfUploadContent && pdfUploadIcon) {
+                    pdfUploadContent.classList.add('collapsed');
+                    pdfUploadIcon.classList.add('collapsed');
+                }
+=======
             // Initialize collapsible sections as expanded on load
             setTimeout(() => {
                 // All sections start expanded by default - no initialization needed
                 // The sections are expanded by default in CSS, so we don't need to add collapsed classes
                 console.log('All sections initialized as expanded');
+>>>>>>> origin/agent-genie++
             }, 100);
 
             // File size validation function
             function validateFileSize(file) {
+<<<<<<< HEAD
+                const maxSize = 10 * 1024 * 1024; // 10MB in bytes
+=======
                 const maxSize = 3 * 1024 * 1024; // 3MB in bytes
+>>>>>>> origin/agent-genie++
                 if (file.size > maxSize) {
                     const fileSizeMB = (file.size / (1024 * 1024)).toFixed(2);
                     return {
                         valid: false,
+<<<<<<< HEAD
+                        error: `File size (${fileSizeMB}MB) exceeds the 10MB limit. Please select a smaller PDF file.`
+=======
                         error: `File size (${fileSizeMB}MB) exceeds the 3MB limit. Please select a smaller PDF file.`
+>>>>>>> origin/agent-genie++
                     };
                 }
                 return { valid: true };
@@ -2528,6 +2852,10 @@
             // Display file information
             function displayFileInfo(file) {
                 const fileSizeMB = (file.size / (1024 * 1024)).toFixed(2);
+<<<<<<< HEAD
+                uploadStatus.textContent = `Selected: ${file.name} (${fileSizeMB}MB)`;
+                uploadStatus.style.color = '#28a745';
+=======
                 const fileLabel = document.querySelector('.file-label');
                 const fileHint = document.querySelector('.file-hint');
                 
@@ -2540,6 +2868,7 @@
                 uploadStatus.style.backgroundColor = '#e8f5e8';
                 uploadStatus.style.color = '#2e7d2e';
                 uploadStatus.style.border = '1px solid #a5d6a7';
+>>>>>>> origin/agent-genie++
             }
 
             // Reusable PDF upload function
@@ -2553,19 +2882,28 @@
                 const validation = validateFileSize(file);
                 if (!validation.valid) {
                     uploadStatus.textContent = validation.error;
+<<<<<<< HEAD
+                    uploadStatus.style.color = '#dc3545';
+=======
                     uploadStatus.style.backgroundColor = '#f8d7da';
                     uploadStatus.style.color = '#721c24';
                     uploadStatus.style.border = '1px solid #f5c6cb';
+>>>>>>> origin/agent-genie++
                     return { success: false, error: validation.error };
                 }
 
                 const form = new FormData();
                 form.append('file', file);
 
+<<<<<<< HEAD
+                uploadStatus.textContent = 'Uploading…';
+                uploadStatus.style.color = '#1a73e8';
+=======
                 uploadStatus.textContent = '⏳ Uploading document...';
                 uploadStatus.style.backgroundColor = '#fff3cd';
                 uploadStatus.style.color = '#856404';
                 uploadStatus.style.border = '1px solid #ffeaa7';
+>>>>>>> origin/agent-genie++
                 
                 try {
                     const res = await fetch('/upload_pdf', { method: 'POST', body: form });
@@ -2573,6 +2911,14 @@
                     if (!res.ok) throw new Error(data.detail || 'Upload failed');
                     
                     sessionId = data.session_id;
+<<<<<<< HEAD
+                    uploadStatus.textContent = 'Uploaded ✓';
+                    uploadStatus.style.color = '#28a745';
+                    return { success: true, sessionId: data.session_id };
+                } catch (e) {
+                    uploadStatus.textContent = 'Error: ' + e.message;
+                    uploadStatus.style.color = '#dc3545';
+=======
                     uploadStatus.textContent = '✅ Document uploaded successfully!';
                     uploadStatus.style.backgroundColor = '#d4edda';
                     uploadStatus.style.color = '#155724';
@@ -2583,6 +2929,7 @@
                     uploadStatus.style.backgroundColor = '#f8d7da';
                     uploadStatus.style.color = '#721c24';
                     uploadStatus.style.border = '1px solid #f5c6cb';
+>>>>>>> origin/agent-genie++
                     return { success: false, error: e.message };
                 }
             }
@@ -2607,15 +2954,21 @@
             // File input change listener for immediate validation
             document.getElementById('pdf').addEventListener('change', function(event) {
                 const file = event.target.files[0];
+<<<<<<< HEAD
+=======
                 const fileLabel = document.querySelector('.file-label');
                 const fileHint = document.querySelector('.file-hint');
                 
+>>>>>>> origin/agent-genie++
                 if (file) {
                     const validation = validateFileSize(file);
                     if (validation.valid) {
                         displayFileInfo(file);
                     } else {
                         uploadStatus.textContent = validation.error;
+<<<<<<< HEAD
+                        uploadStatus.style.color = '#dc3545';
+=======
                         uploadStatus.style.backgroundColor = '#f8d7da';
                         uploadStatus.style.color = '#721c24';
                         uploadStatus.style.border = '1px solid #f5c6cb';
@@ -2626,10 +2979,14 @@
                             fileHint.textContent = 'Max size: 3MB';
                         }
                         
+>>>>>>> origin/agent-genie++
                         // Clear the file input to prevent upload attempts
                         event.target.value = '';
                     }
                 } else {
+<<<<<<< HEAD
+                    uploadStatus.textContent = '';
+=======
                     // Reset to default state
                     uploadStatus.textContent = '';
                     uploadStatus.style.backgroundColor = '';
@@ -2640,9 +2997,14 @@
                         fileLabel.textContent = 'Choose PDF file';
                         fileHint.textContent = 'Max size: 3MB';
                     }
+>>>>>>> origin/agent-genie++
                 }
             });
         });
     </script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> origin/agent-genie++

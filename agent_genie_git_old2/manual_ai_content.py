@@ -200,11 +200,18 @@ MANUAL_AI_CONTENT = {
 
                             > SELECT ai_translate('La vida es un hermoso viaje.', 'en');
                             "Life is a beautiful journey.""",
+<<<<<<< HEAD
+    "ai_forecast": """Syntax
+                                SQL
+
+                                ai_forecast(
+=======
     
     "ai_forecast": """ Syntax
 
                                 SQL
                                AI_FORECAST(
+>>>>>>> origin/agent-genie++
                                 observed TABLE,
                                 horizon DATE | TIMESTAMP | STRING,
                                 time_col STRING,
@@ -216,6 +223,18 @@ MANUAL_AI_CONTENT = {
                                 parameters STRING DEFAULT '{}'
                                 )
 
+<<<<<<< HEAD
+                                ... (truncated for brevity in this message; keep your full content here)
+                                """,
+    "ai_query": """Syntax
+                                To query an endpoint that serves a foundation model:
+
+                                ai_query(endpoint, request)
+
+                                ... (truncated for brevity in this message; keep your full content here)
+                                """  # For general predictive queries
+}
+=======
                             Arguments (short)
 
                                 observed → input table (time + value cols).
@@ -263,3 +282,4 @@ MANUAL_AI_CONTENT = {
 
                                 """  # For general predictive queries
 }
+>>>>>>> origin/agent-genie++
