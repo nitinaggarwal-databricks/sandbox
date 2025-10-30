@@ -11,7 +11,7 @@ resource_specs:
   - name: "genie-space"
     description: "Databricks Genie Space for multi-agent apps"
     genie_space_spec:
-      permission: "CAN_EDIT"  # use CAN_USE if your workspace doesn't support CAN_EDIT
+      permission: "CAN_RUN"  # use CAN_USE if your workspace doesn't support CAN_EDIT
 
 user_api_scopes:
   - "sql"
