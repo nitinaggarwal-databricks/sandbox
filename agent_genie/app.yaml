@@ -11,5 +11,3 @@ env:
     valueFrom: genie-space
   - name: "SERVING_ENDPOINT_NAME"
     valueFrom: serving-endpoint
-  - name: "TAVILY_API_KEY"
-    value: "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"
